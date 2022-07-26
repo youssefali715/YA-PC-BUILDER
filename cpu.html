@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cpu.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="imgs" id="imgs"></div>
+<div class="specs">
+    <form >
+        <label>CPU: </label>
+        <select id="cpu">
+            <option disabled>Select Your CPU</option>
+            <option>i9-12900k</option>
+            <option>i7-12700k</option>
+            <option>i5-12600K</option>
+        </select>
+        <br>
+        <label>MotherBoard: </label>
+        <select id = "MotherBoard">
+            <option disabled>Select Your MotherBoard:</option>
+            <option>ASUS STRIX Z690-E GAMING WIFI ATX Intel Motherboard</option>
+            <option>ASUS Prime Z690-P D4 LGA 1700 Intel Motherboard</option>
+            <option>ASUS STRIX Z690-A GAMING WIFI D4 ATX Intel Motherboard</option>
+        </select>
+        <br>
+        <label>Memory: </label>
+        <select id="Memory">
+            <option disabled>Select Your Memory</option>
+            <option>Crucial 8GB DDR5 4800</option>
+            <option>Crucial 8GB * 2 DDR5 4800</option>
+            <option>OLOy Blade RGB 8GB * 2 DDR5 5600</option>
+        </select>
+        <br>
+        <label>Video Cards: </label>
+        <select id="Video">
+            <option disabled>Select Your GPU</option>
+            <option>GIGABYTE GEFORCE RTX 3060 Ti</option>
+            <option>EVGA     GEFORCE RTX 2080 Ti</option>
+            <option>MSI      GEFORCE GT  710</option>
+        </select>
+        <br>
+        <label>Case: </label>
+        <select id="Case">
+            <option disabled>Select Your Case</option>
+            <option>Antec Dark League DF600 FLUX, Mid-Tower ATX Gaming Case</option>
+            <option>Corsair iCUE 5000X RGB Tempered Glass Mid-Tower ATX PC Smart Case</option>
+            <option>Corsair 4000D Airflow CC-9011200-WW Black Steel</option>
+        </select>
+        <br>
+        <label>Power Supply: </label>
+        <select id="Power">
+            <option disabled>Select Your Power Supply</option>
+            <option>CORSAIR CX-F RGB Series CX750F RGB 750W 80 PLUS Bronze Fully Modular ATX Power Supply</option>
+            <option>ASUS ROG STRIX 850G 850W White Edition Power Supply</option>
+            <option>EVGA SuperNOVA 650 G5</option>
+        </select>
+        <br>
+        <label>Storage: </label>
+        <select id="Storage">
+            <option disabled>Select Your Storage</option>
+            <optgroup label="HDD">
+                <option>Seagate 2TB</option>
+                <option>Seagate 4TB</option>
+                <option>WD 18TB</option>
+            </optgroup>
+            <optgroup label="SSD">
+                <option>Samsung EVO 1TB</option>
+                <option>Samsung EVO 2TB</option>
+            </optgroup>
+        </select>
+        <br>
+        <label>CPU Cooler: </label>
+        <select id="Cooler">
+            <option disabled>Select Your CPU Cooler:</option>
+            <optgroup label="Fan & HeatSink">
+                <option>Thermaltake 120mm</option>
+                <option>Vetroo      240mm</option>
+            </optgroup>
+            <optgroup label="Water Cooler Kit">
+                <option>CORSAIR 120mm</option>
+                <option>MSI     240mm</option>
+            </optgroup>
+        </select>
+        <br>
+        <label>OS: </label>
+        <select id = "OS">
+            <option disabled>Select Your OS:</option>
+            <optgroup label="Windows">
+                <optgroup label="Windows 10">
+                    <option>Windows 10 Home</option>
+                    <option>Windows 10 Pro</option>
+                    <option>Windows 10 Pirated  $0 + Free Virus</option>
+                </optgroup>
+                <optgroup label="Windows 11">
+                    <option>Windows 11 Home</option>
+                    <option>Windows 11 Pro</option>
+                    <option>Windows 11 Pirated  $0 + Free Virus</option>
+                </optgroup>
+            </optgroup>
+            <optgroup label="Linux">
+                <option>Ubuntu</option>
+                <option>POP OS!</option>
+                <option>Debian</option>
+                <option>Arch Linux</option>
+            </optgroup>
+            <optgroup label="Mac OS">
+                <option>Montrey</option>
+                <option>Catalina</option>
+                <option>Ventura</option>
+            </optgroup>
+        </select>
+        <br>
+        <button onclick="save()" type="button">Submit</button>
+        <input type="submit" value="Reset">
+    </form>
+</div>
+<div class="price">
+    <p>Totla Price:20</p>
+    <p>In the Future</p>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
